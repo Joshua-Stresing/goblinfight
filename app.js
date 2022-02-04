@@ -1,4 +1,10 @@
 // import functions and grab DOM elements
+import { renderGoblin } from './utils.js';
+const defeatedNumberEl = document.querySelector('#defeated-number');
+const adventurerHPEl = document.querySelector('#player-stats');
+const adventurerImgEl = document.querySelector('#adventurer');
+const form = document.querySelector('form');
+const goblinListEl = document.querySelector('.goblins');
 
 // let state
 
