@@ -71,7 +71,8 @@ function goblinClickHandler(goblinData) {
     hpEl.textContent = goblinData.hp < 0 ? 0 : goblinData.hp;
 
     const faceEl = document.getElementById(`goblin-face-${goblinData.id}`);
-    faceEl.textContent = goblinData.hp > 0 ? '' : '';
+    const gobimg = goblinData.hp > 0 ? './assets/goblin.png' : './assets/crossbones.png';
+    faceEl.setAttribute('src', gobimg);
 }
 
 
