@@ -75,7 +75,6 @@ function goblinClickHandler(goblinData) {
     faceEl.setAttribute('src', gobimg);
 }
 
-
 function displayGoblins() {
     goblinListEl.textContent = '';
 
